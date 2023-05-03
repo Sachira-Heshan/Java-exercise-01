@@ -17,7 +17,8 @@ public class API {
         });
     }
 
-    public static void main(String[] args){
+    // Added a comment
+    public static void main(String[] args) {
         JFrame frame = new JFrame("App");
         frame.setContentPane(new API().mainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
